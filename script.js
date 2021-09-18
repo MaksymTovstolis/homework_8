@@ -29,34 +29,25 @@ if(rainbow[2] = `Battle`) {
 
 document.write(`
 <table>
+
     <tr>
-        <td class="circle"></td>
-        <td>${rainbow[0]}</td>
+        <th style='background: violet; border-radius: 100%; width: 50px; height: 50px;'> </th>
+        <th style='background: orange; border-radius: 100%; width: 50px; height: 50px;'> </th>
+        <th style='background: yellow; border-radius: 100%; width: 50px; height: 50px;'> </th>
+        <th style='background: green; border-radius: 100%; width: 50px; height: 50px;'> </th>
+        <th style='background: blue; border-radius: 100%; width: 50px; height: 50px;'> </th>
+        <th style='background: darkblue; border-radius: 100%; width: 50px; height: 50px;'> </th>
+        <th style='background: violet; border-radius: 100%; width: 50px; height: 50px;'> </th>
     </tr>
     <tr>
-        <td></td>
-        <td>${rainbow[1]}</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>${rainbow[2]}</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>${rainbow[3]}</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>${rainbow[4]}</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>${rainbow[5]}</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>${rainbow[6]}</td>
-    </tr>
+    <th>${rainbow[0]}</th>
+    <th>${rainbow[1]}</th>
+    <th>${rainbow[2]}</th>
+    <th>${rainbow[3]}</th>
+    <th>${rainbow[4]}</th>
+    <th>${rainbow[5]}</th>
+    <th>${rainbow[6]}</th>
+</tr>
 </table>`)
 
 
